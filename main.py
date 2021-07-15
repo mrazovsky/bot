@@ -33,7 +33,7 @@ def say_welcome(message):
     logger.info(f'</code>@{message.from_user.username}<code> ({message.chat.id}) used /start or /help')
     bot.send_message(
         message.chat.id,
-        '<b>Hello! This is a telegram bot</a></b>',
+        '<b>Hello! This is a telegram bot :)</b>',
         parse_mode='html'
     )
 
